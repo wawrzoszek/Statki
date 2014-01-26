@@ -1,4 +1,0 @@
-Statki
-======
-
-Gra statki - NJPO
