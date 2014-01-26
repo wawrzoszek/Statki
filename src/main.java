@@ -6,7 +6,4 @@ public class main {
 
 	}
 
-	public void graj() {
-
-	}
 }

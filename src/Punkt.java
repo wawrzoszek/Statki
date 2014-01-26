@@ -1,3 +1,5 @@
+//Nadaje wsp—¸rz«dnego wylosowanemu/klikni«temu punktowi na planszy
+
 import java.util.Random;
 
 public class Punkt {

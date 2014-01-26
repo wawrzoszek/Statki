@@ -1,3 +1,5 @@
+//PLANSZA - tworzy pustˆ plansz«, wype¸nia jˆ i wypisuje do konsoli
+
 public class Plansza {
 
 	String tablica[][];
@@ -22,11 +24,14 @@ public class Plansza {
 
 	// dadaje statki
 	public void wypelnijPlansze() {
-		Ship statki = new Ship();
-		statki.wpiszStatek(this, 4);
+		Ship statki = new Ship(); //staki na calej planszy
+		statki.wpiszStatek(this, 4); //dodaj 4-elemntowy statek na aktywnˆ plansze
+		statki.wpiszStatek(this, 3);
 		statki.wpiszStatek(this, 3);
 		statki.wpiszStatek(this, 2);
 		statki.wpiszStatek(this, 2);
+		statki.wpiszStatek(this, 2);
+		statki.wpiszStatek(this, 1);
 		statki.wpiszStatek(this, 1);
 		statki.wpiszStatek(this, 1);
 		statki.wpiszStatek(this, 1);
